@@ -3,6 +3,12 @@ document.getElementById("submit").addEventListener("click", function(evt) {
   
   if(inputCheck()){
     section = document.getElementById("main");
+	section = document.getElementById("fname");
+	section = document.getElementById("lname");
+	section = document.getElementById("address");
+	section = document.getElementById("country");
+	section = document.getElementById("state");
+	
     section.innerHTML = "";
 	confirmationNode = document.createElement("h3");
     section.appendChild(acknowledgeNode);
