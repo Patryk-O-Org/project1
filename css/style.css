@@ -1,0 +1,24 @@
+body{
+  height: 98vh;
+  font-family: 'Open Sans', Andada Pro, Poppins;
+  background-color: #f82700;
+  
+}
+header{
+  width: 100%;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 7%;
+}
+h1{
+   font-size: 5rem;
+   font-weight: 650;
+   font-family: 'Ubuntu', Georama, Noto Sans;
+   color: #f89100;
+   -webkit-text-stroke: 1px #f8c800;
+}
+h2{
+  font-size: 1.9rem;
+  font-weight: 700;
+  padding-bottom: 3%;
+}
