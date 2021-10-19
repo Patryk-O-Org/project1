@@ -55,10 +55,17 @@ margin-bottom: 2.5%;
   background-color: gray;
 }
 
-
-
 #benefits li{
   text-align: center;
   padding-bottom: 5%;
   line-height: 1.4;
+}
+
+#main #submit{
+  padding: 1rem;
+  background-color:white;
+  
+}
+#main #submit:hover{
+  background-color: black;
 }
