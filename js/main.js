@@ -20,7 +20,27 @@ document.getElementById("submit").addEventListener("click", function(evt) {
   country = document.getElementById("country").value;
   state = document.getElementById("state").value;
 
-  if(!primaryName || !familyName || !city || !country || !phone){
+  if(!firstName || !lastName || !address || !country || !state){
     alert("Fill out all information please.");
     return false
   }
+
+console.log(`Primary Name: ${firstName} \n
+  Last Name: ${lastName}\n
+  Address: ${address} \n
+  Country: ${country} \n
+  State: ${state} \n
+  `);
+  return true;
+}
+
+ function checkBoxes(){
+  if(!document.getElementById("age-verification").checked){
+    alert("Must be over 18 to sign up.");
+    return false;
+  }
+  
+  else{
+    return true;
+  }
+ }
