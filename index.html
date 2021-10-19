@@ -9,10 +9,7 @@
   <link rel="stylesheet" href="css/style.css">
   <script src="js/main.js" async></script>
   
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+ 
 </head>
 
 <body>
@@ -23,40 +20,47 @@
   <section id="main">
     <h2>Sign up for all the latest information on all of Nintendo's products!</h2>
     <form action="#null" method="POST" autocomplete="on">
+	
+	
+	<!-- First Name -->
       <div class="label-input">
         <label for="fname">First Name</label>
         <input id="fname" type="text" name="fname-field" placeholder="Enter Name Here">
       </div>
+	  
+	  <!-- Last Name -->
       <div class="label-input">
         <label for="lname">Last Name</label>
         <input id="lname" type="text" name="lname-field" placeholder="Enter Last Name Here">
       </div>
 	  
+	  <!-- Email Address -->
 	   <div class="label-input">
         <label for="address">Email Address</label>
         <input id="address" type="text" name="address-field" placeholder="johndoe@blank.com">
       </div>
+	  
+	  <!-- Country -->
       <div class="label-input">
         <label for="country">Country</label>
         <input id="country" type="text" name="country-field" placeholder="Enter Country Here">
       </div>
+	  
+	  <!-- State -->
       <div class="label-input">
         <label for="state">State</label>
         <input id="state" type="tel" name="state-field" placeholder="Enter State Here">
       </div>
-      <div id="benefits">
-        <h3>Benefits of Membership</h3>
-        <ol>
-          <li>Get all the latest news on upcoming Nintendo Switch games and accessories!</li>
-          <li>Recieve exclusive discounts on upcoming Nintendo products and games!</li>
-        </ol>
-      </div>
 	  
+	
+	  
+	  <!-- Check box and Input -->
 	  <div class="label-input ">
         <input type="checkbox" id="age-verification" name="age-verification" value="18" />
         <label for="age-verification">I am 18 years of older.</label>
       </div>
       
+	  <!-- Submit -->
       <input type="submit" name="submit" id="submit" value="Sign Up" />
     </form>
   </section>

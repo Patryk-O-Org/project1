@@ -1,7 +1,7 @@
 body{
   height: 98vh;
   font-family: 'Open Sans', Andada Pro, Poppins;
-  background-color: #f82700;
+  background-color: gray;
   
 }
 
@@ -9,15 +9,15 @@ header{
   width: 100%;
   text-align: center;
   padding-top: 3%;
-  padding-bottom: 7%;
+  padding-bottom: 15%;
 }
 
 h1{
-   font-size: 5rem;
+   font-size: 7rem;
    font-weight: 650;
    font-family: 'Ubuntu', Georama, Noto Sans;
-   color: #f89100;
-   -webkit-text-stroke: 1px #f8c800;
+   color: purple;
+   
 }
 
 h2{
@@ -47,19 +47,7 @@ margin-bottom: 2.5%;
   font-weight: 450;
 }
 
-#benefits{
-  padding-top: 2%;
-  margin: 6% auto;
-  width: 70%;
-  border: 4px solid black;
-  background-color: gray;
-}
 
-#benefits li{
-  text-align: center;
-  padding-bottom: 5%;
-  line-height: 1.4;
-}
 
 #main #submit{
   padding: 1rem;
