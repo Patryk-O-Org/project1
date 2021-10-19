@@ -69,3 +69,24 @@ margin-bottom: 2.5%;
 #main #submit:hover{
   background-color: black;
 }
+
+@media only screen and (min-width: 768px){
+  h1{
+    font-size: 5rem;
+  }
+  h2{
+    font-size: 2rem;
+  }
+  h3{
+    font-size: 1.8rem;
+  }
+  #main label{
+    font-size: 1.6rem;
+  }
+  .label-input input{
+    height: 1.6rem;
+  }
+  #benefits li{
+    font-size: 1.3rem;
+  }
+}
