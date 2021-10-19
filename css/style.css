@@ -90,3 +90,37 @@ margin-bottom: 2.5%;
     font-size: 1.3rem;
   }
 }
+
+@media only screen and (min-width: 1200px){
+  header{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+  h1{
+    font-size: 4rem;
+  }
+  h2{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+  }
+  h3{
+    font-size: 1.8rem;
+  }
+  #main input{
+    margin-bottom: 1rem;
+   }
+  #main label{
+    font-size: 1.2rem;
+  }
+  .label-input input{
+    height: 1.6rem;
+  }
+  #benefits{
+    padding-top: 4rem;
+    margin: 1rem auto;
+    max-width: 600px;
+  }
+  #benefits li{
+    font-size: 1.6rem;
+  }
+}
