@@ -1,3 +1,7 @@
+
+/* modular scale : 1.6 */
+
+
 body{
   height: 98vh;
   font-family: 'Open Sans', Andada Pro, Poppins;
@@ -13,7 +17,7 @@ header{
 }
 
 h1{
-   font-size: 7rem;
+   font-size: 1.6rem;
    font-weight: 650;
    font-family: 'Ubuntu', Georama, Noto Sans;
    color: purple;
@@ -21,13 +25,13 @@ h1{
 }
 
 h2{
-  font-size: 1.9rem;
+  font-size: 1.6rem;
   font-weight: 700;
   padding-bottom: 3%;
 }
 
 h3{
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   font-weight: 700;
   font-family: 'Ubuntu', Tahoma, Georama;
 }
@@ -35,7 +39,7 @@ h3{
 
 
 #main{
-   width: 100%;
+   width: 90%;
    text-align: left;
    padding-bottom: 5%;
    padding-top: 2%;
@@ -48,7 +52,7 @@ padding-top: 1%;
 }
 
 #main label{
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: purple;
   font-weight: 450;
   padding-top: 6%;
@@ -68,13 +72,13 @@ padding-top: 1%;
 
 @media only screen and (min-width: 768px){
   h1{
-    font-size: 5rem;
+    font-size: 1.6rem;
   }
   h2{
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
   h3{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   #main label{
     font-size: 1.6rem;
@@ -83,7 +87,7 @@ padding-top: 1%;
     height: 1.6rem;
   }
   #benefits li{
-    font-size: 1.3rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -93,20 +97,20 @@ padding-top: 1%;
     padding-bottom: 2rem;
   }
   h1{
-    font-size: 4rem;
+    font-size: 1.6rem;
   }
   h2{
-    font-size: 2rem;
+    font-size: 1.6rem;
     padding-bottom: 2rem;
   }
   h3{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   #main input{
     margin-bottom: 1rem;
    }
   #main label{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
   }
   .label-input input{
     height: 1.6rem;
